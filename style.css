@@ -94,7 +94,7 @@ top: 50px;
 }
 .porthead{
 background: url(images/Group\ 2373.png) no-repeat center ;
-border: 2px solid aqua;
+/* border: 2px solid aqua; */
 height: 150px;
 margin-top: 50px;
 font-family: poppins, sans-serif;
@@ -117,6 +117,20 @@ height: 200px;
 }
 .nav-link:hover{
     color: #00ADB5;
+}
+.portfolio{
+    height: auto;
+    background: url(images/Group\ 2373.png);
+    /* border: 1px solid white; */
+}
+.portleft ,.portcenter, .portright{
+    height: 400px;
+    /* border: 1px solid aqua; */
+}
+.portimg{
+    width: 300px;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 
@@ -182,9 +196,21 @@ height: 200px;
          justify-content: center;
     }
     .porthead h1{
-        padding-top: 50px;
+        padding-top: 0px;
+    }
+    .porthead h1{
+        padding-left: 0px;
     }
     .nav1{
 display: none;
+    }
+    .portleft ,.portcenter, .portright{
+        height: 300px;
+        /* border: 1px solid aqua; */
+    }
+    .portimg{
+        width: 250px;
+        cursor: pointer;
+        background-color: transparent;
     }
 }
